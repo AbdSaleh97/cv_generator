@@ -16,11 +16,12 @@ def print_welcome_message():
 
 def read_template(template_path):
     """Reads a template file and returns its content as a string"""
-    
-    with open(template_path, "r") as file:
+    try:
+        with open(template_path, "r") as file:
             template_content = file.read()
-    return template_content
-  
+        return template_content
+    except FileNotFoundError:
+        raise FileNotFoundError(f"Template file not found at the specified path: {template_path}")
 
 
 
