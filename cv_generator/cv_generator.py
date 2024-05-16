@@ -46,7 +46,7 @@ def merge(template, values):
 
 def main():
     print_welcome_message()
-    template_path = "/home/asaad/CV-generator/assest/cv_template.txt"  
+    template_path = "../assest/cv_template.txt"  
     template_content = read_template(template_path)
     stripped_template, template_parts = parse_template(template_content)
     user_input = prompt_user_for_input(template_parts)
