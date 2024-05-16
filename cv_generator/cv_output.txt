@@ -1,38 +1,38 @@
 ==================================================================== 
-      Assad                                                                           
+      assad                                                                           
                                                     
       Phone Number: 0797697805                   
-      Email: assadalmograbe8@gmail .com                                 
+      Email: assad @gmail.com                                 
       City: Amman                                   
                                                      
              
 ==[ Education ]=====================================================                                     
                                                     
-      University Name:Meu  
+      University Name:MEU  
       Major in:CS              
       Graduation Date:2021              
                                                     
                 
 ==[ Experience ]====================================================         
                                                     
-      Company Name:Asac  
-      Job Title:trainee                   
+      Company Name:ASAC  
+      Job Title:TRainee                   
       Summary of your key responsibilities:          
       training                         
                                                     
                
 ==[ Skills ]========================================================                                  
                                                     
-      - py                        
+      - react                        
       - js                                     
-      - react                                     
-      - nodejs                                     
+      - python                                     
+      - nodejd                                     
                                          
                                                     
 ==[ Languages ]=====================================================         
                                                                                                                                       
       Arabic:Fluent                       
-      English:very Good                      
+      English:Good                      
                                   ──────▄▀▄─────▄▀▄
                                   ─────▄█░░▀▀▀▀▀░░█▄
                                   ─▄▄──█░░░░░░░░░░░█──▄▄
