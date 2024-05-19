@@ -56,3 +56,25 @@ def test_parse_template_with_special_characters():
     expected_parts = ("Name", "major", "job_title", "company_name")
     assert actual_stripped == expected_stripped
     assert actual_parts == expected_parts
+
+def test_parse_template_with_numbers_in_placeholders():
+    template_string = "My {first_name} is {number1} years old and my {second_name} is {number2}."
+    actual_stripped, actual_parts = parse_template(template_string)
+    expected_stripped = "My {} is {} years old and my {} is {}."
+    expected_parts = ("first_name", "number1", "second_name", "number2")
+    assert actual_stripped == expected_stripped
+    assert actual_parts == expected_parts
+
+def test_merge_with_numbers_in_placeholders():
+    template = "My {} is {} years old and my {} is {}."
+    values = ("John", 25, "Doe", 30)
+    actual = merge(template, values)
+    expected = "My John is 25 years old and my Doe is 30."
+    assert actual == expected
+
+def test_merge_with_special_characters_in_values():
+    template = "My name is {} and I work as a {}."
+    values = ("John Doe", "developer@#")
+    actual = merge(template, values)
+    expected = "My name is John Doe and I work as a developer@#."
+    assert actual == expected
